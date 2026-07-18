@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;600&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap');
+@import url(‘https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;600&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap’);
 
 /* ==================================================
 VARIABLES
@@ -6,25 +6,25 @@ VARIABLES
 
 :root {
 
---paper: #f5f2eb;
+–paper: #f5f2eb;
 
---paper-light: #fbfaf6;
+–paper-light: #fbfaf6;
 
---paper-dark: #e8e4da;
+–paper-dark: #e8e4da;
 
---ink: #34342f;
+–ink: #34342f;
 
---muted: #77766e;
+–muted: #77766e;
 
---light: #aaa79d;
+–light: #aaa79d;
 
---line: #d8d4c9;
+–line: #d8d4c9;
 
---green: #788879;
+–green: #788879;
 
---brown: #9a8067;
+–brown: #9a8067;
 
---white: #fffdf8;
+–white: #fffdf8;
 
 }
 
@@ -33,8 +33,8 @@ RESET
 ================================================== */
 
 * {
-  box-sizing: border-box;
-  }
+    box-sizing: border-box;
+    }
 
 html {
 scroll-behavior: smooth;
@@ -44,12 +44,12 @@ body {
 
 margin: 0;
 
-background: var(--paper);
+background: var(–paper);
 
-color: var(--ink);
+color: var(–ink);
 
 font-family:
-'Zen Kaku Gothic New',
+‘Zen Kaku Gothic New’,
 sans-serif;
 
 line-height: 1.9;
@@ -134,19 +134,12 @@ z-index: 1;
 
 background:
 
-```
 linear-gradient(
-
   180deg,
-
   rgba(20, 20, 20, 0.12),
-
   rgba(20, 20, 20, 0.18) 40%,
-
   rgba(20, 20, 20, 0.72)
-
 );
-```
 
 }
 
@@ -168,13 +161,9 @@ text-align: center;
 
 margin:
 
-```
 0
-
 0
-
 35px;
-```
 
 font-size: 0.7rem;
 
@@ -190,27 +179,18 @@ margin: 0;
 
 font-family:
 
-```
 'Noto Serif JP',
-
 serif;
-```
 
 font-weight: 400;
 
 font-size:
 
-```
 clamp(
-
   4rem,
-
   10vw,
-
   9rem
-
 );
-```
 
 line-height: 1.35;
 
@@ -218,25 +198,15 @@ letter-spacing: 0.08em;
 
 text-shadow:
 
-```
 0
-
 3px
-
 25px
-
 rgba(
-
   0,
-
   0,
-
   0,
-
   0.25
-
 );
-```
 
 }
 
@@ -244,13 +214,9 @@ rgba(
 
 margin:
 
-```
 40px
-
 0
-
 0;
-```
 
 font-size: 0.7rem;
 
@@ -280,7 +246,7 @@ opacity: 0.85;
 
 .hero-scroll::after {
 
-content: '';
+content: ‘’;
 
 display: block;
 
@@ -290,29 +256,18 @@ height: 55px;
 
 margin:
 
-```
 12px
-
 auto
-
 0;
-```
 
 background:
 
-```
 rgba(
-
   255,
-
   255,
-
   255,
-
   0.7
-
 );
-```
 
 }
 
@@ -324,15 +279,11 @@ COMMON
 
 margin:
 
-```
 0
-
 0
-
 28px;
-```
 
-color: var(--green);
+color: var(–green);
 
 font-size: 0.68rem;
 
@@ -352,11 +303,8 @@ letter-spacing: 0.35em;
 
 font-family:
 
-```
 'Noto Serif JP',
-
 serif;
-```
 
 font-weight: 400;
 
@@ -370,19 +318,13 @@ INTRO
 
 padding:
 
-```
 180px
-
 30px
-
 200px;
-```
 
 background:
 
-```
 var(--paper-light);
-```
 
 }
 
@@ -398,35 +340,22 @@ margin: 0 auto;
 
 margin:
 
-```
 0
-
 0
-
 80px;
-```
 
 font-family:
 
-```
 'Noto Serif JP',
-
 serif;
-```
 
 font-size:
 
-```
 clamp(
-
   2.3rem,
-
   5vw,
-
   4.8rem
-
 );
-```
 
 font-weight: 400;
 
@@ -442,15 +371,10 @@ display: grid;
 
 grid-template-columns:
 
-```
 repeat(
-
   2,
-
   1fr
-
 );
-```
 
 gap: 80px;
 
@@ -464,7 +388,7 @@ margin-left: auto;
 
 margin: 0;
 
-color: var(--muted);
+color: var(–muted);
 
 font-size: 0.93rem;
 
@@ -478,19 +402,13 @@ MAP
 
 padding:
 
-```
 150px
-
 30px
-
 180px;
-```
 
 background:
 
-```
 var(--paper-dark);
-```
 
 }
 
@@ -500,13 +418,9 @@ max-width: 1100px;
 
 margin:
 
-```
 0
-
 auto
-
 75px;
-```
 
 }
 
@@ -514,25 +428,16 @@ auto
 
 margin:
 
-```
 0
-
 35px;
-```
 
 font-size:
 
-```
 clamp(
-
   3rem,
-
   7vw,
-
   6.5rem
-
 );
-```
 
 line-height: 1.4;
 
@@ -544,7 +449,7 @@ max-width: 500px;
 
 margin-left: 5px;
 
-color: var(--muted);
+color: var(–muted);
 
 }
 
@@ -560,31 +465,19 @@ overflow: hidden;
 
 background:
 
-```
 var(--paper-light);
-```
 
 box-shadow:
 
-```
 0
-
 20px
-
 60px
-
 rgba(
-
   60,
-
   55,
-
   45,
-
   0.08
-
 );
-```
 
 }
 
@@ -608,13 +501,9 @@ DAY
 
 padding:
 
-```
 180px
-
 30px
-
 230px;
-```
 
 }
 
@@ -622,9 +511,7 @@ padding:
 
 background:
 
-```
 var(--white);
-```
 
 }
 
@@ -632,9 +519,7 @@ var(--white);
 
 background:
 
-```
 var(--paper);
-```
 
 }
 
@@ -644,13 +529,9 @@ max-width: 1100px;
 
 margin:
 
-```
 0
-
 auto
-
 160px;
-```
 
 }
 
@@ -658,25 +539,16 @@ auto
 
 margin:
 
-```
 0
-
 50px;
-```
 
 font-size:
 
-```
 clamp(
-
   3.2rem,
-
   8vw,
-
   7.5rem
-
 );
-```
 
 line-height: 1.4;
 
@@ -690,7 +562,7 @@ max-width: 520px;
 
 margin-left: 5px;
 
-color: var(--muted);
+color: var(–muted);
 
 }
 
@@ -704,23 +576,16 @@ max-width: 1250px;
 
 margin:
 
-```
 0
-
 auto
-
 190px;
-```
 
 display: grid;
 
 grid-template-columns:
 
-```
 1.45fr
-
 0.75fr;
-```
 
 align-items: center;
 
@@ -732,11 +597,8 @@ gap: 110px;
 
 grid-template-columns:
 
-```
 0.75fr
-
 1.45fr;
-```
 
 }
 
@@ -762,9 +624,7 @@ overflow: hidden;
 
 background:
 
-```
 var(--paper-dark);
-```
 
 }
 
@@ -780,13 +640,9 @@ object-position: center;
 
 transition:
 
-```
 transform
-
 0.8s
-
 ease;
-```
 
 }
 
@@ -794,13 +650,9 @@ ease;
 
 transform:
 
-```
 scale(
-
   1.03
-
 );
-```
 
 }
 
@@ -808,11 +660,8 @@ scale(
 
 padding:
 
-```
 20px
-
 30px;
-```
 
 }
 
@@ -820,15 +669,11 @@ padding:
 
 margin:
 
-```
 0
-
 0
-
 12px;
-```
 
-color: var(--light);
+color: var(–light);
 
 font-size: 0.7rem;
 
@@ -840,15 +685,11 @@ letter-spacing: 0.25em;
 
 margin:
 
-```
 0
-
 0
-
 25px;
-```
 
-color: var(--brown);
+color: var(–brown);
 
 font-size: 0.68rem;
 
@@ -862,33 +703,21 @@ letter-spacing: 0.25em;
 
 margin:
 
-```
 0
-
 30px;
-```
 
 font-family:
 
-```
 'Noto Serif JP',
-
 serif;
-```
 
 font-size:
 
-```
 clamp(
-
   2rem,
-
   4vw,
-
   3.8rem
-
 );
-```
 
 font-weight: 400;
 
@@ -902,7 +731,7 @@ letter-spacing: 0.05em;
 
 margin: 0;
 
-color: var(--muted);
+color: var(–muted);
 
 font-size: 0.93rem;
 
@@ -916,19 +745,13 @@ TRAVEL LOG
 
 padding:
 
-```
 180px
-
 30px
-
 200px;
-```
 
 background:
 
-```
 var(--paper-light);
-```
 
 }
 
@@ -944,25 +767,16 @@ margin: 0 auto;
 
 margin:
 
-```
 0
-
 60px;
-```
 
 font-size:
 
-```
 clamp(
-
   3rem,
-
   7vw,
-
   6rem
-
 );
-```
 
 line-height: 1.5;
 
@@ -974,15 +788,11 @@ max-width: 500px;
 
 margin:
 
-```
 0
-
 0
-
 90px;
-```
 
-color: var(--muted);
+color: var(–muted);
 
 }
 
@@ -992,15 +802,10 @@ display: grid;
 
 grid-template-columns:
 
-```
 repeat(
-
   3,
-
   1fr
-
 );
-```
 
 gap: 20px;
 
@@ -1020,25 +825,19 @@ justify-content: space-between;
 
 border:
 
-```
 1px
-
 solid
-
 var(--line);
-```
 
 background:
 
-```
 var(--white);
-```
 
 }
 
 .travel-log-card span {
 
-color: var(--green);
+color: var(–green);
 
 font-size: 0.62rem;
 
@@ -1054,11 +853,8 @@ margin: 0;
 
 font-family:
 
-```
 'Noto Serif JP',
-
 serif;
-```
 
 font-size: 1.2rem;
 
@@ -1074,19 +870,13 @@ ENDING
 
 padding:
 
-```
 230px
-
 30px
-
 250px;
-```
 
 background:
 
-```
 var(--paper-dark);
-```
 
 }
 
@@ -1102,25 +892,16 @@ margin: 0 auto;
 
 margin:
 
-```
 0
-
 75px;
-```
 
 font-size:
 
-```
 clamp(
-
   3.5rem,
-
   8vw,
-
   7.5rem
-
 );
-```
 
 line-height: 1.45;
 
@@ -1134,7 +915,7 @@ max-width: 500px;
 
 margin: 0;
 
-color: var(--muted);
+color: var(–muted);
 
 }
 
@@ -1146,19 +927,14 @@ footer {
 
 padding:
 
-```
 100px
-
 30px;
-```
 
 text-align: center;
 
 background:
 
-```
 var(--paper);
-```
 
 }
 
@@ -1166,19 +942,13 @@ footer p {
 
 margin:
 
-```
 0
-
 20px;
-```
 
 font-family:
 
-```
 'Noto Serif JP',
-
 serif;
-```
 
 font-size: 1.15rem;
 
@@ -1188,7 +958,7 @@ letter-spacing: 0.08em;
 
 footer small {
 
-color: var(--light);
+color: var(–light);
 
 font-size: 0.62rem;
 
@@ -1206,13 +976,9 @@ TABLET
 
 .story.reverse {
 
-```
 grid-template-columns:
-
   1fr;
-
 gap: 55px;
-```
 
 }
 
@@ -1220,49 +986,35 @@ gap: 55px;
 
 .story.reverse .story-text {
 
-```
 order: initial;
-```
 
 }
 
 .story-image {
 
-```
 height: 560px;
-```
 
 }
 
 .story-text {
 
-```
 max-width: 700px;
-
 padding:
-
   0
-
   20px;
-```
 
 }
 
 .travel-log-grid {
 
-```
 grid-template-columns:
-
   1fr;
-```
 
 }
 
 .travel-log-card {
 
-```
 min-height: 220px;
-```
 
 }
 
@@ -1276,323 +1028,218 @@ MOBILE
 
 .hero {
 
-```
 min-height: 650px;
-```
 
 }
 
 .hero h1 {
 
-```
 font-size:
-
   clamp(
-
     3.2rem,
-
     16vw,
-
     5rem
-
   );
-
 line-height: 1.45;
-```
 
 }
 
 .hero-kicker {
 
-```
 font-size: 0.58rem;
-
 letter-spacing: 0.28em;
-```
 
 }
 
 .hero-date {
 
-```
 margin-top: 30px;
-```
 
 }
 
 .intro {
 
-```
 padding:
-
   100px
-
   25px
-
   120px;
-```
 
 }
 
 .intro h2 {
 
-```
 margin-bottom: 55px;
-
 font-size: 2rem;
-
 line-height: 1.8;
-```
 
 }
 
 .intro-columns {
 
-```
 grid-template-columns:
-
   1fr;
-
 gap: 25px;
-```
 
 }
 
 .map-section {
 
-```
 padding:
-
   100px
-
   20px
-
   120px;
-```
 
 }
 
 .section-heading {
 
-```
 margin-bottom: 55px;
-```
 
 }
 
 .section-heading h2 {
 
-```
 margin:
-
   0
-
   30px
-
   0;
-
 font-size: 3rem;
-```
 
 }
 
 .map-wrapper {
 
-```
 margin:
-
   0
-
   -5px;
-```
 
 }
 
 .map-wrapper iframe {
 
-```
 height: 500px;
-```
 
 }
 
 .day {
 
-```
 padding:
-
   110px
-
   20px
-
   140px;
-```
 
 }
 
 .day-intro {
 
-```
 margin-bottom: 100px;
-```
 
 }
 
 .day-intro h2 {
 
-```
 margin:
-
   0
-
   35px
-
   0;
-
 font-size: 3rem;
-
 line-height: 1.55;
-```
 
 }
 
 .story {
 
-```
 margin-bottom: 120px;
-```
 
 }
 
 .story-image {
 
-```
 height: 420px;
-```
 
 }
 
 .story-text {
 
-```
 padding:
-
   0
-
   10px;
-```
 
 }
 
 .story h3 {
 
-```
 margin:
-
   0
-
   20px;
-
 font-size: 2.1rem;
-```
 
 }
 
 .story-text > p:last-child {
 
-```
 font-size: 0.9rem;
-```
 
 }
 
 .travel-log {
 
-```
 padding:
-
   120px
-
   25px
-
   140px;
-```
 
 }
 
 .travel-log h2 {
 
-```
 margin:
-
   0
-
   50px;
-
 font-size: 3.5rem;
-```
 
 }
 
 .travel-log-lead {
 
-```
 margin-bottom: 60px;
-```
 
 }
 
 .travel-log-grid {
 
-```
 gap: 12px;
-```
 
 }
 
 .travel-log-card {
 
-```
 min-height: 190px;
-
 padding: 25px;
-```
 
 }
 
 .ending {
 
-```
 padding:
-
   140px
-
   25px
-
   160px;
-```
 
 }
 
 .ending h2 {
 
-```
 margin-bottom: 50px;
-
 font-size: 3.5rem;
-```
 
 }
 
 footer {
 
-```
 padding:
-
   70px
-
   25px;
-```
 
 }
 
